@@ -10,3 +10,8 @@ function destructivelyUpdateObjectWithKeyAndValue (object, key, value){
   object[key] = value
   return obj
 }
+
+function deleteFromObjectByKey(object, key){
+  delete obj.prop2
+  return obj
+}
