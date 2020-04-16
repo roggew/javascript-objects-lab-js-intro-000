@@ -1,6 +1,6 @@
+var prop = 1
 
-
-function deleteFromObjectByKey (object, key){
-  delete obj.prop2
-  return obj
+function updateObjectWithKeyAndValue(object, key, value){
+  obj.prop2 = 2
+  return Object.assign({}, obj, {[key]: value})
 }
