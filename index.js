@@ -22,4 +22,4 @@ function destructivelyDeleteFromObjectByKey(object, key){
   delete obj.prop
   return obj
 }
-delete.obj.prop
+delete obj.prop
